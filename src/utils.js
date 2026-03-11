@@ -5,7 +5,6 @@ function formatDate(date) {
   }
   return new Date(date).toLocaleString('zh-CN')
 }
-// 这里多了一个右括号，会导致语法错误
 }
 
 function calculateTotal(prices) {
