@@ -4,9 +4,10 @@
   "description": "Test demo for CI/CD debugger skill",
   "scripts": {
     "lint": "eslint src/",
-    "test": "node test/index.test.js"
+    "test": "jest test/index.test.js"
   },
   "devDependencies": {
-    "eslint": "^8.57.0"
+    "eslint": "^8.57.0",
+    "jest": "^30.3.0"
   }
 }
