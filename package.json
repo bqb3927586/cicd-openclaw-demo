@@ -1,0 +1,12 @@
+{
+  "name": "test-ci-demo",
+  "version": "1.0.0",
+  "description": "Test demo for CI/CD debugger skill",
+  "scripts": {
+    "lint": "eslint src/",
+    "test": "node test/index.test.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
