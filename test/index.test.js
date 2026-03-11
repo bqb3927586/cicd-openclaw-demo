@@ -10,5 +10,5 @@ test('formatDate should return correct date string', () => {
 test('calculateTotal should sum all prices', () => {
   const prices = [1, 2, 3];
   const result = calculateTotal(prices);
-  expect(result).toBe(10);
+  expect(result).toBe(6);
 });
