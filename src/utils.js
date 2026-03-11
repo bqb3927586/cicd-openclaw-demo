@@ -5,7 +5,6 @@ function formatDate(date) {
   }
   return new Date(date).toLocaleString('zh-CN')
 }
-}
 function calculateTotal(prices) {
   return prices.reduce((sum, price) => sum + price, 0)
 }
